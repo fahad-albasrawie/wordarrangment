@@ -174,8 +174,10 @@ function check_ans() {
 
 
 function giveUp() {
+
     var no_givining_up_counter1 = document.getElementById('no-giving-up-counter')
     var nogiveup = document.getElementById('no-more-give-up')
+
 
     // if he/she can give up
     if (no_givining_up_counter1.innerHTML == 5) {
